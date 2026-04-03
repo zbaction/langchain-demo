@@ -2,9 +2,9 @@ import dev.langchain4j.model.openai.OpenAiChatModel;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import top.zbaction.Main;
+import top.zbaction.xiaozhi;
 
-@SpringBootTest(classes = Main.class)
+@SpringBootTest(classes = xiaozhi.class)
 public class LLMTest {
 
     /**
