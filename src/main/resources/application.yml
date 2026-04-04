@@ -9,6 +9,17 @@ langchain4j:
       api-key: ${DEEP_SEEK_API_KEY}
       log-requests: true
       log-responses: true
+    streaming-chat-model:
+      model-name: deepseek-chat
+      base-url: https://api.deepseek.com
+      api-key: ${DEEP_SEEK_API_KEY}
+      log-requests: true
+      log-responses: true
+  zhipu-ai:
+    streaming-chat-model:
+      base-url: https://api.zhipuai.com
+      api-key: ${ZHIPU_AI_API_KEY}
+      model-name: glm-5
 
 #启用日志info级别
 logging:
