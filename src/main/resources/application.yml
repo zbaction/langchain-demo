@@ -15,3 +15,7 @@ logging:
   level:
     root: INFO
 
+spring:
+  data:
+    mongodb:
+      uri=mongodb://localhost:27017/chat_memory_db
