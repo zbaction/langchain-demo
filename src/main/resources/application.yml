@@ -16,6 +16,15 @@ logging:
     root: INFO
 
 spring:
+  datasource:
+    username: root
+    password: 200411
+    url: jdbc:mysql://localhost:3306/guiguxiaozhi?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
   data:
     mongodb:
       uri=mongodb://localhost:27017/chat_memory_db
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
