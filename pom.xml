@@ -99,6 +99,11 @@
             <version>1.0.0-beta3</version>
         </dependency>
 
+        <dependency>
+            <groupId>dev.langchain4j</groupId>
+            <artifactId>langchain4j-pinecone</artifactId>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>
