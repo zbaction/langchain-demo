@@ -23,7 +23,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
   data:
     mongodb:
-      uri=mongodb://localhost:27017/chat_memory_db
+      uri: mongodb://localhost:27017/chat_memory_db
 
 mybatis-plus:
   configuration:
